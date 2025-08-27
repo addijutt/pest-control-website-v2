@@ -31,101 +31,101 @@ const services: Service[] = [
       description: "Hire an exterminator with solutions designed to eliminate termites and protect against future infestations.",
       hasDetailPage: true,
       slug: "termite-control",
-      image: "/images/termite.jpg"
+      image: "/images/termite.webp"
     },
     {
       title: "Bees Control",
       description: "Our experts are available 24/7 and specialize in safe and effective methods proven to quickly get rid of bees!",
       hasDetailPage: true,
       slug: "bees",
-      image: "/images/bees.jpg"
+      image: "/images/bees.webp"
     },
     {
       title: "Critter Extermination",
       description: "Critter urine, saliva and feces may contain dangerous viruses and bacteria. Avoid these health risks and call us today.",
       hasDetailPage: true,
       slug: "critter",
-      image: "/images/critter.jpg"
+      image: "/images/critter.webp"
     },
     {
       title: "Bed Bug Removal",
       description: "Bed Bugs are parasites that feed on blood causing itchy red bumps. For this, Pest Controls offers our Bug Buster service.",
       hasDetailPage: true,
       slug: "bed-bug",
-      image: "/images/bedbug.jpg"
+      image: "/images/bedbug.webp"
     },
     {
       title: "Wild Life Removal",
       description: "Trying to remove wildlife yourself can be dangerous and harmful. Pest Controls offer 24/7 emergency service.",
       hasDetailPage: false,
-      image: "/images/wild.jpg"
+      image: "/images/wild.webp"
     },
     {
       title: "Roaches Control",
       description: "Never worry about finding another roach again! Call us today for local expert roach extermination.",
       hasDetailPage: true,
-      image: "/images/roaches.jpg"
+      image: "/images/roaches.webp"
     },
     {
       title: "Ants Control",
       description: "Spotted a few ants where they don't belong? Get rid of these intruders and reclaim your pest-free property.",
       hasDetailPage: true,
-      image: "/images/ants.jpg"
+      image: "/images/ants.webp"
     },
     {
       title: "Flies & Fleas Removal",
       description: "Pets come home from playing outside and so can unwanted hitchhikers - Fleas. Eliminate Fleas with Pest Controls.",
       hasDetailPage: true,
       slug: "flea",
-      image: "/images/flies.jpg"
+      image: "/images/flies.webp"
     },
      {
       title: "Birds/Bats removal",
       description: "Birds and bats can live in many small crevices in your home and can attack when provoked. Don't wait to exterminate them!",
       hasDetailPage: false,
-      image: "/images/bats.jpg"
+      image: "/images/bats.webp"
     },
      {
       title: "Mosquitoes Control",
       description: "Mosquitoes pose serious health risks and can carry Dengue, Malaria, Zika or more. We'll help you get rid of these nasty pests.",
       hasDetailPage: false,
-      image: "/images/mosquitoes.jpg"
+      image: "/images/mosquitoes.webp"
     },
      {
       title: "Wasps Removal",
       description: "Wasp stings cause pain, irritation, and severe rashes. Pest Controls can rid your home of wasps and keep you safe.",
       hasDetailPage: false,
-      image: "/images/wasps.jpg"
+      image: "/images/wasps.webp"
     },
      {
       title: "Rodents Extermination",
       description: "Rodents are dangerous pests. They carry diseases, contaminate food, and damage your home. Call today!",
       hasDetailPage: false,
-      image: "/images/rodents.jpg"
+      image: "/images/rodents.webp"
     },
      {
       title: "Yellow Jackets Removal",
       description: "Keep your home comfortable for you and unsafe for pests all season long with yellow jacket control services. Get started!",
       hasDetailPage: false,
-      image: "/images/yellow.jpg"
+      image: "/images/yellow.webp"
     },
      {
       title: "Raccoons Extermination",
       description: "If you have dangerous raccoons invading your yard or nesting in your home, talk to our raccoon exterminators right away.",
       hasDetailPage: false,
-      image: "/images/raccoons.jpg"
+      image: "/images/raccoons.webp"
     },
      {
       title: "Spiders Control",
       description: "Spider infestations are distressing and get out of control fast. Call us today to get rid of these creepy crawlies.",
       hasDetailPage: false,
-      image: "/images/spiders.jpg"
+      image: "/images/spiders.webp"
     },
      {
       title: "Cricket Extermination",
       description: "Tired of hearing all that chirping? Contact our Pest Controls pro for a total cricket extermination.",
       hasDetailPage: false,
-      image: "/images/cricket.jpg"
+      image: "/images/cricket.webp"
     },
   ];
 

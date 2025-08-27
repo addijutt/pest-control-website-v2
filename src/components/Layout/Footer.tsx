@@ -22,7 +22,7 @@ const Footer: React.FC = () => {
             {/* Logo and Copyright */}
             <div className="col-span-5">
               <LocationAwareLink href="/" className="inline-flex items-center space-x-2">
-                <img src="/images/local_logo.png" className='h-14 md:h-20' alt="" />
+                <img src="/images/local_logo.webp" className='h-8 md:h-12' alt="" />
               </LocationAwareLink>
               <p className="text-sm mt-4">
                 © 2017 - {currentYear} Pest Controls. All rights reserved.
@@ -54,7 +54,7 @@ const Footer: React.FC = () => {
             {/* Logo and Copyright */}
             <div className="col-span-5">
               <LocationAwareLink href="/" className="inline-flex items-center space-x-2">
-                <img src="/images/local_logo.png" className='h-20' alt="" />
+                <img src="/images/local_logo.webp" className='h-8 md:h-12' alt="" />
               </LocationAwareLink>
               <p className="text-sm mt-4">
                 © 2017 - {currentYear} Pest Controls. All rights reserved.
@@ -104,7 +104,7 @@ const Footer: React.FC = () => {
         <div className="md:hidden">
           <div className="text-center mb-6">
            <LocationAwareLink href="/" className="flex items-center justify-center space-x-2">
-                          <img src="/images/local_logo.png" className='h-14' alt="" />
+                          <img src="/images/local_logo.webp" className='h-8 md:h-12' alt="" />
                          </LocationAwareLink>
             <div className="mt-2">
               <a 

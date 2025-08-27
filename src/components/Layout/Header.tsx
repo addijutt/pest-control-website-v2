@@ -56,7 +56,7 @@ const Header: React.FC = () => {
             <div className="flex justify-between items-center h-16 md:h-24">
               {/* Logo */}
               <Link to="/" className="flex items-center space-x-2">
-               <img src="/images/local_logo.png" className='h-14 md:h-20' alt="" />
+               <img src="/images/local_logo.webp" className='h-8 md:h-12' alt="" />
               </Link>
 
               {/* Call Now Section */}
@@ -88,7 +88,7 @@ const Header: React.FC = () => {
           <div className="flex justify-between items-center h-16 md:h-24">
             {/* Logo */}
             <Link to="/" className="flex items-center space-x-2">
-               <img src="/images/local_logo.png" className='h-14 md:h-20' alt="" />
+               <img src="/images/local_logo.webp" className='h-8 md:h-12' alt="" />
               </Link>
 
             {/* Desktop Navigation */}
