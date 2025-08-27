@@ -3,7 +3,10 @@ import LocationAwareLink from '../LocationAwareLink';
 
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
-
+const handleLogoClick = () => {
+    const body = document.body;
+    body.className = '';
+  };
   // const location = useLocation();
 
   // Routes that should show the simple fooer (home page style)
@@ -22,7 +25,7 @@ const Footer: React.FC = () => {
             {/* Logo and Copyright */}
             <div className="col-span-5">
               <LocationAwareLink href="/" className="inline-flex items-center space-x-2">
-                <img src="/images/local_logo.webp" className='h-8 md:h-12' alt="" />
+                <img src="/images/local_logo.webp" onClick={handleLogoClick} className='h-8 md:h-12' alt="" />
               </LocationAwareLink>
               <p className="text-sm mt-4">
                 © 2017 - {currentYear} LocalPestExperts. All rights reserved.
@@ -54,7 +57,7 @@ const Footer: React.FC = () => {
             {/* Logo and Copyright */}
             <div className="col-span-5">
               <LocationAwareLink href="/" className="inline-flex items-center space-x-2">
-                <img src="/images/local_logo.webp" className='h-8 md:h-12' alt="" />
+                <img src="/images/local_logo.webp" onClick={handleLogoClick} className='h-8 md:h-12' alt="" />
               </LocationAwareLink>
               <p className="text-sm mt-4">
                 © 2017 - {currentYear} LocalPestExperts. All rights reserved.
@@ -104,7 +107,7 @@ const Footer: React.FC = () => {
         <div className="md:hidden">
           <div className="text-center mb-6">
            <LocationAwareLink href="/" className="flex items-center justify-center space-x-2">
-                          <img src="/images/local_logo.webp" className='h-8 md:h-12' alt="" />
+                          <img src="/images/local_logo.webp" onClick={handleLogoClick} className='h-8 md:h-12' alt="" />
                          </LocationAwareLink>
             <div className="mt-2">
               <a 

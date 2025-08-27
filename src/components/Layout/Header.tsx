@@ -46,7 +46,10 @@ const Header: React.FC = () => {
     { to: '/about-us', label: 'About Us' },
     { to: '/contact-us', label: 'Contact Us' },
   ];
-
+ const handleLogoClick = () => {
+    const body = document.body;
+    body.className = '';
+  };
   // Simple header for home page
   if (showSimpleHeader) {
     return (
@@ -56,7 +59,7 @@ const Header: React.FC = () => {
             <div className="flex justify-between items-center h-16 md:h-24">
               {/* Logo */}
               <Link to="/" className="flex items-center space-x-2">
-               <img src="/images/local_logo.webp" className='h-8 md:h-12' alt="" />
+               <img src="/images/local_logo.webp" onClick={handleLogoClick} className='h-8 md:h-12' alt="" />
               </Link>
 
               {/* Call Now Section */}
@@ -88,7 +91,7 @@ const Header: React.FC = () => {
           <div className="flex justify-between items-center h-16 md:h-24">
             {/* Logo */}
             <Link to="/" className="flex items-center space-x-2">
-               <img src="/images/local_logo.webp" className='h-8 md:h-12' alt="" />
+               <img src="/images/local_logo.webp" onClick={handleLogoClick} className='h-8 md:h-12' alt="" />
               </Link>
 
             {/* Desktop Navigation */}
