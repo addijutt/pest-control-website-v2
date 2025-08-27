@@ -25,7 +25,7 @@ const Footer: React.FC = () => {
                 <img src="/images/local_logo.webp" className='h-8 md:h-12' alt="" />
               </LocationAwareLink>
               <p className="text-sm mt-4">
-                © 2017 - {currentYear} Pest Controls. All rights reserved.
+                © 2017 - {currentYear} LocalPestExperts. All rights reserved.
               </p>
             </div>
 
@@ -34,7 +34,7 @@ const Footer: React.FC = () => {
           {/* Disclaimer */}
           <div className="border-t border-gray-200 pt-6">
             <p className="text-sm leading-relaxed">
-              Disclaimer: Pest Controls is a free service that helps users connect with local pest control contractors. All contractors are independent and Pest Controls does not warrant or guarantee any work performed. It is the responsibility of the user to verify that the contractor they hire has the necessary license and insurance required for the work being performed. Any third party products, brands or trademarks listed above are the sole property of their respective owner. No affiliation or endorsement is intended or implied. All persons depicted in a photo or video are actors or models and not contractors listed on Pest controls.
+              Disclaimer: LocalPestExperts is a free service that helps users connect with local pest control contractors. All contractors are independent and Pest Controls does not warrant or guarantee any work performed. It is the responsibility of the user to verify that the contractor they hire has the necessary license and insurance required for the work being performed. Any third party products, brands or trademarks listed above are the sole property of their respective owner. No affiliation or endorsement is intended or implied. All persons depicted in a photo or video are actors or models and not contractors listed on Pest controls.
             </p>
           </div>
         </div>
@@ -57,7 +57,7 @@ const Footer: React.FC = () => {
                 <img src="/images/local_logo.webp" className='h-8 md:h-12' alt="" />
               </LocationAwareLink>
               <p className="text-sm mt-4">
-                © 2017 - {currentYear} Pest Controls. All rights reserved.
+                © 2017 - {currentYear} LocalPestExperts. All rights reserved.
               </p>
             </div>
 
@@ -95,7 +95,7 @@ const Footer: React.FC = () => {
           {/* Disclaimer */}
           <div className="border-t border-gray-200 pt-6">
             <p className="text-sm leading-relaxed">
-              Disclaimer: Pest Controls is a free service that helps users connect with local pest control contractors. All contractors are independent and Pest Controls does not warrant or guarantee any work performed. It is the responsibility of the user to verify that the contractor they hire has the necessary license and insurance required for the work being performed. Any third party products, brands or trademarks listed above are the sole property of their respective owner. No affiliation or endorsement is intended or implied. All persons depicted in a photo or video are actors or models and not contractors listed on Pest controls.
+              Disclaimer: LocalPestExperts is a free service that helps users connect with local pest control contractors. All contractors are independent and Pest Controls does not warrant or guarantee any work performed. It is the responsibility of the user to verify that the contractor they hire has the necessary license and insurance required for the work being performed. Any third party products, brands or trademarks listed above are the sole property of their respective owner. No affiliation or endorsement is intended or implied. All persons depicted in a photo or video are actors or models and not contractors listed on Pest controls.
             </p>
           </div>
         </div>
@@ -151,10 +151,10 @@ const Footer: React.FC = () => {
           {/* Copyright and Disclaimer */}
           <div className="text-center border-t border-gray-200 pt-4">
             <p className="text-xs mb-3">
-              © 2017 - {currentYear} Pest Controls. All rights reserved.
+              © 2017 - {currentYear} LocalPestExperts. All rights reserved.
             </p>
             <p className="text-xs leading-relaxed">
-              Disclaimer: Pest Controls is a free service that helps users connect with local pest control contractors. All contractors are independent and Pest Controls does not warrant or guarantee any work performed. It is the responsibility of the user to verify that the contractor they hire has the necessary license and insurance required for the work being performed. Any third party products, brands or trademarks listed above are the sole property of their respective owner. No affiliation or endorsement is intended or implied. All persons depicted in a photo or video are actors or models and not contractors listed on Pest controls.
+              Disclaimer: LocalPestExperts is a free service that helps users connect with local pest control contractors. All contractors are independent and Pest Controls does not warrant or guarantee any work performed. It is the responsibility of the user to verify that the contractor they hire has the necessary license and insurance required for the work being performed. Any third party products, brands or trademarks listed above are the sole property of their respective owner. No affiliation or endorsement is intended or implied. All persons depicted in a photo or video are actors or models and not contractors listed on Pest controls.
             </p>
           </div>
         </div>

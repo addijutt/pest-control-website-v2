@@ -68,7 +68,7 @@ const { data: locationData } = useGeotargetContext();
 
             <div className="mb-8 bg-[#f9f9f9] border border-[#eee] rounded-tr-[24px]">
               <h3 className="text-base md:text-[18px] font-bold bg-[#eeeeff] border border-[#eee] p-2 rounded-e-full">
-                Do you service Lahore?
+                Do you service {locationData && (<> {locationDisplay.city}</> )}?
               </h3>
               <p className="leading-relaxed p-2">
                 Yes, we are available in over 30,000 locations, covering all US cities with 24/7 availability. If you call us before 2 pm local time, we can typically arrange same-day appointments for you.
