@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { PageProps } from '../routes/routes';
 import SimpleProcess from '../components/Sections/SimpleProcess';
 import SimpleHero from '../components/Sections/SimpleHero';
@@ -9,6 +9,19 @@ import { useLocationDisplay } from '../utils/locationUtils';
 const Pricing: React.FC<PageProps> = ({ Pagetitle }) => {
     const { data: locationData } = useGeotargetContext();
         const locationDisplay = useLocationDisplay(locationData);
+        const [count, setCount] = useState<number>(178);
+
+        useEffect(() => {
+          // Set up interval to increment the count randomly every 2-4 seconds
+          const interval = setInterval(() => {
+            const randomIncrement = Math.floor(Math.random() * 5) + 1; // 1-5
+            setCount(prevCount => prevCount + randomIncrement);
+          }, 2000); // Update every 3 seconds (average of 2-4)
+
+          // Clean up interval on component unmount
+          return () => clearInterval(interval);
+        }, []);
+
   return (
     <>
     <section className="pb-0 pt-10 md:pt-24 mt-[60px]">
@@ -113,7 +126,7 @@ const Pricing: React.FC<PageProps> = ({ Pagetitle }) => {
                   <img src="/images/user.png" alt="" />
                 </div>
                 <div className='flex-1'>
-                  <p className="">Today, we connected <b>4816</b> homeowners to a top rated local exterminators at no charge.</p>
+                  <p className="">Today, we connected <b className='text-[#005170]'>{count}</b> homeowners to a top rated local exterminators at no charge.</p>
                   <div className="mt-6">
                     <Button href="tel:8445289381" className='dynamic-href' size="md" variant='primary'>
                       Schedule Service

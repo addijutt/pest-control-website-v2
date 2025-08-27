@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import LocationAwareLink from '../LocationAwareLink';
 
@@ -46,10 +46,10 @@ const Header: React.FC = () => {
     { to: '/about-us', label: 'About Us' },
     { to: '/contact-us', label: 'Contact Us' },
   ];
- const handleLogoClick = () => {
-    const body = document.body;
-    body.className = '';
-  };
+//  const handleLogoClick = () => {
+//     const body = document.body;
+//     body.className = '';
+//   };
   // Simple header for home page
   if (showSimpleHeader) {
     return (
@@ -58,9 +58,9 @@ const Header: React.FC = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex justify-between items-center h-16 md:h-24">
               {/* Logo */}
-              <Link to="/" className="flex items-center space-x-2">
-               <img src="/images/local_logo.webp" onClick={handleLogoClick} className='h-8 md:h-12' alt="" />
-              </Link>
+              <a href='javascript:void(0)' className="flex items-center space-x-2">
+               <img src="/images/local_logo.webp" className='h-8 md:h-12' alt="" />
+              </a>
 
               {/* Call Now Section */}
               <div className="md:flex items-center">
@@ -90,9 +90,9 @@ const Header: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16 md:h-24">
             {/* Logo */}
-            <Link to="/" className="flex items-center space-x-2">
-               <img src="/images/local_logo.webp" onClick={handleLogoClick} className='h-8 md:h-12' alt="" />
-              </Link>
+            <a href='javascript:void(0)' className="flex items-center space-x-2">
+               <img src="/images/local_logo.webp" className='h-8 md:h-12' alt="" />
+              </a>
 
             {/* Desktop Navigation */}
             <nav className="hidden md:flex items-center space-x-8">

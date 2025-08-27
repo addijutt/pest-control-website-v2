@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Button from '../UI/Button';
 import { useGeotargetContext } from '../Location/GeotargetProvider';
 import { useLocationDisplay } from '../../utils/locationUtils';
@@ -6,6 +6,18 @@ import { useLocationDisplay } from '../../utils/locationUtils';
 const WhyChooseUs: React.FC = () => {
 const { data: locationData } = useGeotargetContext();
     const locationDisplay = useLocationDisplay(locationData);
+    const [count, setCount] = useState<number>(178);
+
+      useEffect(() => {
+        // Set up interval to increment the count randomly every 2-4 seconds
+        const interval = setInterval(() => {
+          const randomIncrement = Math.floor(Math.random() * 5) + 1; // 1-5
+          setCount(prevCount => prevCount + randomIncrement);
+        }, 2000); // Update every 3 seconds (average of 2-4)
+
+        // Clean up interval on component unmount
+        return () => clearInterval(interval);
+      }, []);
 
   return (
     <section className="py-16 lg:py-24 bg-gray-50">
@@ -110,7 +122,7 @@ const { data: locationData } = useGeotargetContext();
                   <img src="/images/user.png" alt="" />
                 </div>
                 <div className='flex-1'>
-                  <p className="">Today, we connected <b>4816</b> homeowners to a top rated local exterminators at no charge.</p>
+                  <p className="">Today, we connected <b className='text-[#005170]'>{count}</b> homeowners to a top rated local exterminators at no charge.</p>
                   <div className="my-6">
                     <Button href="tel:8445289381" className='dynamic-href' size="md" variant='primary'>
                       Schedule Service

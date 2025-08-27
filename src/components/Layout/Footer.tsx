@@ -3,10 +3,10 @@ import LocationAwareLink from '../LocationAwareLink';
 
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
-const handleLogoClick = () => {
-    const body = document.body;
-    body.className = '';
-  };
+// const handleLogoClick = () => {
+//     const body = document.body;
+//     body.className = '';
+//   };
   // const location = useLocation();
 
   // Routes that should show the simple fooer (home page style)
@@ -24,9 +24,9 @@ const handleLogoClick = () => {
           <div className="flex justify-center mb-8 md:py-8">
             {/* Logo and Copyright */}
             <div className="col-span-5">
-              <LocationAwareLink href="/" className="inline-flex items-center space-x-2">
-                <img src="/images/local_logo.webp" onClick={handleLogoClick} className='h-8 md:h-12' alt="" />
-              </LocationAwareLink>
+              <a href='javascript:void(0)' className="inline-flex items-center space-x-2">
+                <img src="/images/local_logo.webp" className='h-8 md:h-12' alt="" />
+              </a>
               <p className="text-sm mt-4">
                 © 2017 - {currentYear} LocalPestExperts. All rights reserved.
               </p>
@@ -56,9 +56,9 @@ const handleLogoClick = () => {
           <div className="grid grid-cols-8 gap-4 mb-8">
             {/* Logo and Copyright */}
             <div className="col-span-5">
-              <LocationAwareLink href="/" className="inline-flex items-center space-x-2">
-                <img src="/images/local_logo.webp" onClick={handleLogoClick} className='h-8 md:h-12' alt="" />
-              </LocationAwareLink>
+              <a href='javascript:void(0)' className="inline-flex items-center space-x-2">
+                <img src="/images/local_logo.webp" className='h-8 md:h-12' alt="" />
+              </a>
               <p className="text-sm mt-4">
                 © 2017 - {currentYear} LocalPestExperts. All rights reserved.
               </p>
@@ -106,9 +106,9 @@ const handleLogoClick = () => {
         {/* Mobile Footer */}
         <div className="md:hidden">
           <div className="text-center mb-6">
-           <LocationAwareLink href="/" className="flex items-center justify-center space-x-2">
-                          <img src="/images/local_logo.webp" onClick={handleLogoClick} className='h-8 md:h-12' alt="" />
-                         </LocationAwareLink>
+           <a href='javascript:void(0)' className="flex items-center justify-center space-x-2">
+                          <img src="/images/local_logo.webp" className='h-8 md:h-12' alt="" />
+                         </a>
             <div className="mt-2">
               <a 
                 href="tel:8445289381" 
