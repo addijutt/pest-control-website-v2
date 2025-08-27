@@ -124,24 +124,24 @@ const ContactUs: React.FC<PageProps> = ({ Pagetitle }) => {
         <div className="w-full lg:w-[40%] px-6 ">
           
           <div className="space-y-6">
-            <div>
+            {/* <div>
               <h3 className="font-semibold text-lg mb-2">Mailing Address:</h3>
               <p className="text-sm">
-                <b>Pest Controls</b><br />
-                P.O 1637<br />
-                Pearland Texas 77588<br />
-                USA
+                <b>FlowBridge Media (Nexus Quant Labs Ltd.)</b><br />
+                2803 Philadelphia Pike<br />
+                Suite B #1708<br />
+                Claymont, DE 19703
               </p>
-            </div>
+            </div> */}
 
             <div>
               <h3 className="font-semibold text-lg mb-2">E-mail:</h3>
-              <p className="text-sm"><a href="mailto:service@pestscontrols.com" className='underline'>service@pestscontrols.com</a></p>
+              <p className="text-sm"><a href="mailto:info@local-pest-experts.com" className='underline'>info@local-pest-experts.com</a></p>
             </div>
 
             <div>
               <h3 className="font-semibold text-lg mb-2">Call Us 24/7:</h3>
-              <p className="text-sm"><a href="tel:(844) 636-7638" className='underline'>(844) 636-7638</a></p>
+              <p className="text-sm"><a href="tel:8334880407" className='underline dynamic-phone'>(833) 488-0407</a></p>
             </div>
           </div>
         </div>
