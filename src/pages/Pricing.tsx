@@ -102,8 +102,9 @@ const Pricing: React.FC<PageProps> = ({ Pagetitle }) => {
 
           {/* Right Content */}
           <div className="w-full lg:w-[35%] px-6">
-            <div className='border border-[#ddd] p-2 flex rounded-sm flex-col text-center justify-end h-[300px] bg-[#f2f2f2]'>
-                <p>Exterminator in <span className='text-[#005170]'>{locationData && (<> {locationDisplay.city}</> )}</span> and the surrounding area.</p>
+            <div className='border border-[#ddd]  flex rounded-sm flex-col text-center justify-end  bg-[#f2f2f2]'>
+              <img src="/images/guy.webp" className='w-full h-full object-cover rounded-t-sm' alt="" />
+                <p className='p-2'>Exterminator in <span className='text-[#005170]'>{locationData && (<> {locationDisplay.city}</> )}</span> and the surrounding area.</p>
             </div>
              {/* Overlay with stats */}
             <div className="border border-[#ddd] p-6 mt-6 bg-[#f2f2f2] rounded-sm">
