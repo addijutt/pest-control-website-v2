@@ -136,7 +136,7 @@ const ContactUs: React.FC<PageProps> = ({ Pagetitle }) => {
 
             <div>
               <h3 className="font-semibold text-lg mb-2">E-mail:</h3>
-              <p className="text-sm"><a href="mailto:info@local-pest-experts.com" className='underline'>info@local-pest-experts.com</a></p>
+              <p className="text-sm"><a href="mailto:info@local-pest-experts.net" className='underline'>info@local-pest-experts.net</a></p>
             </div>
 
             <div>

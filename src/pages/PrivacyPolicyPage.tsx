@@ -107,7 +107,7 @@ const PrivacyPolicyPage: React.FC = () => {
                 Suite B #1708<br />
                 Claymont, DE 19703
               </p>
-              <p>Email: <a href="mailto:info@local-pest-experts.com">info@local-pest-experts.com</a></p>
+              <p>Email: <a href="mailto:info@local-pest-experts.net">info@local-pest-experts.net</a></p>
               <p>Phone: <a href="mailto:6054606263">605-460-6263</a></p>
 
             </div>

@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable no-case-declarations */
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { PageProps } from '../routes/routes';
 import { useGeotargetContext } from '../components/Location/GeotargetProvider';
 import { useLocationDisplay } from '../utils/locationUtils';
@@ -38,6 +38,19 @@ const ServicesTemplate: React.FC<PageProps> = ({ Pagetitle = "", PageImage = ""}
   const titleOriginal = getTitleVariation('original');
   const titleLowercase = getTitleVariation('lowercase');
   const titlePartial = getTitleVariation('partial');
+
+  const [count, setCount] = useState<number>(178);
+
+  useEffect(() => {
+    // Set up interval to increment the count randomly every 2-4 seconds
+    const interval = setInterval(() => {
+      const randomIncrement = Math.floor(Math.random() * 5) + 1; // 1-5
+      setCount(prevCount => prevCount + randomIncrement);
+    }, 3000); // Update every 3 seconds (average of 2-4)
+
+    // Clean up interval on component unmount
+    return () => clearInterval(interval);
+  }, []);
 
   return (
    <>
@@ -288,7 +301,7 @@ const ServicesTemplate: React.FC<PageProps> = ({ Pagetitle = "", PageImage = ""}
                   <img src="/images/user.png" alt="" />
                 </div>
                 <div className='flex-1'>
-                  <p className="">Today, we connected <b>4816</b> homeowners to a top rated local exterminators at no charge.</p>
+                  <p className="">Today, we connected <b className='text-[#005170]'>{count}</b> homeowners to a top rated local exterminators at no charge.</p>
                   <div className="my-6">
                     <Button href="tel:8445289381" className='dynamic-href' size="md" variant='primary'>
                       Schedule Service
