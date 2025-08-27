@@ -139,7 +139,7 @@ img[loading="lazy"] {
   background-image: url(/images/termite-bg.jpg);
 }
 .bees .hero-bg{
-  background-image: url(/images/bee-bg.jpg);
+  background-image: url(/images/bee-bg.webp);
 }
 .critter .hero-bg{
   background-image: url(/images/critter-bg.jpg);
@@ -180,7 +180,7 @@ img[loading="lazy"] {
   background-image: url(/images/termite-sm.jpg);
 }
 .bees .hero-bg{
-  background-image: url(/images/bee-sm.jpg);
+  background-image: url(/images/bee-sm.webp);
 }
 .critter .hero-bg{
     background-image: url(/images/critter-sm.jpg);
