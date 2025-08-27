@@ -13,7 +13,7 @@ const { data: locationData } = useGeotargetContext();
           {/* Left Content */}
           <div className='w-full lg:w-[60%] px-6 mb-8 md:mb-0'>
             <h2 className="text-3xl md:text-4xl font-bold  mb-12">
-              How Pest Control <span className="text-[#005170]">Works</span>
+              How LocalPestExperts <span className="text-[#005170]">Works</span>
             </h2>
             
             <div className="space-y-8">
